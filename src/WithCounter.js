@@ -5,10 +5,10 @@ const withCounter = Component => {
             count: 0
         };
         handleDecrement = () => {
-            this.setState({count: this.setState.count - 1 })
+            this.setState({count: this.state.count - 1 })
         };
         handleIncrement = () => {
-            this.setState({count: this.setState.count + 1 })
+            this.setState({count: this.state.count + 1 })
         };
         render() {
             return (
